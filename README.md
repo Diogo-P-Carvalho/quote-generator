@@ -1,8 +1,10 @@
 # Quote Generator
+
 Using an API to build a random quote generator with Twitter integration.
+<br>
 <a href="https://github.com/Diogo-P-Carvalho/quote-generator/blob/main/README.md"><strong>Explore the docs »</strong></a>
 
-<a href="#">View Demo</a>
+<a href="https://diogo-p-carvalho.github.io/quote-generator/">View Demo</a>
 ·
 <a href="https://github.com/Diogo-P-Carvalho/quote-generator/issues">Report Bug</a>
 ·
@@ -73,8 +75,14 @@ Contributions are what make the open source community such an amazing place to b
 <!--CONTACT -->
 ## Contact
 
-Diogo Carvalho - Portfolio Comming Soon - [Linkedin](www.linkedin.com/in/diogo-carvalho-83a96a14a) - [@diogoOak](https://twitter.com/diogoOak) - diogoprdcarvalho@gmail.com
+Diogo Carvalho - Portfolio Comming Soon - [Linkedin](www.linkedin.com/in/diogo-carvalho-83a96a14a) - [@diogoOak](https://twitter.com/diogoOak)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgements
 * [Template](https://github.com/Diogo-P-Carvalho/template)
+* [Google’s Favicon Service](https://www.google.com/s2/favicons?domain=zerotomastery.io)
+* [Font Awesome](https://fontawesome.com)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Hero Patterns](https://www.heropatterns.com/)
+* [Github Pages](https://pages.github.com/)
+* [Google Fonts](https://fonts.google.com/)
