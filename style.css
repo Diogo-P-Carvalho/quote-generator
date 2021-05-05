@@ -18,7 +18,8 @@ body {
     justify-content: center;
 }
 
-.quote-container {
+.quote-container,
+.error-container {
     width: auto;
     max-width: 900px;
     padding: 20px 30px;
@@ -27,7 +28,8 @@ body {
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.quote-text {
+.quote-text,
+.error-container span {
     font-size: 2.75rem;
 }
 
@@ -35,8 +37,13 @@ body {
     font-size: 2rem;
 }
 
-.fa-quote-left {
+.fa-quote-left,
+.fa-exclamation-circle {
     font-size: 4rem;
+}
+
+.fa-exclamation-circle {
+    color: #b70000;
 }
 
 .quote-author {

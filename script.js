@@ -4,6 +4,7 @@ const authorText = document.querySelector('#author');
 const twitterBtn = document.querySelector('#twitter');
 const newQuoteBtn = document.querySelector('#new-quote');
 const loader = document.querySelector('#loader');
+const errorContainer = document.querySelector('#error');
 
 let apiQuotes = [];
 
@@ -17,6 +18,12 @@ function loading() {
 function complete() {
     quoteContainer.hidden = false;
     loader.hidden = true;
+}
+
+// Show Error
+function showError() {
+    errorContainer.hidden = false;
+    quoteContainer.hidden = true;
 }
 
 // Show New Quote
@@ -51,6 +58,9 @@ async function getQuotes() {
         newQuote();
     } catch (error) {
         // Catch Error Here
+        console.log(error);
+        complete();
+        showError();
     }
 }
 
