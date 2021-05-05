@@ -1,6 +1,6 @@
 # Quote Generator
 
-Using an API to build a random quote generator with Twitter integration.
+Using an API ([Type Fit Quotes](https://type.fit/api/quotes)) to build a random quote generator with Twitter integration ([Tweet Web Intent](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent)).
 <br>
 <a href="https://github.com/Diogo-P-Carvalho/quote-generator/blob/main/README.md"><strong>Explore the docs »</strong></a>
 
@@ -17,12 +17,10 @@ Using an API to build a random quote generator with Twitter integration.
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#objectives">Objectives</a></li>
+        <li><a href="#built-with">Built With</a></li>        
       </ul>
-    </li>
-    <li>
-        <a href="#objective-of-the-project">Objective Of The Project</a>
-    </li>
+    </li>    
     <li>
       <a href="#getting-started">Getting Started</a>      
     </li>
@@ -34,34 +32,41 @@ Using an API to build a random quote generator with Twitter integration.
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
+### Objectives
+
+-   Usage of asynchronous fetch request to a REST API in order to get our quotes
+-   DOM Manipulation to show the quotes and get new ones
+-   Integration with Tweet Web Intent to tweet your favorite quotes
 
 ### Built With
 
-- HTML5
-- CSS3
-- Javascript
-
-<!-- OBJECTIVE OF THE PROJECT -->
-## Objective Of The Project
-
-- Usage of asynchronous fetch request to a REST API in order to get our quotes
+-   HTML5
+-   CSS3
+-   Javascript
+-   Type Fit Quotes API
+-   Tweet Web Intent
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 1. Clone this repo
-   ```sh
-   git clone https://github.com/Diogo-P-Carvalho/quote-generator.git
-   ```
+    ```sh
+    git clone https://github.com/Diogo-P-Carvalho/quote-generator.git
+    ```
 2. Run index.html file
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/Diogo-P-Carvalho/quote-generator/issues) for a list of proposed features (and known issues)
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -73,16 +78,21 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!--CONTACT -->
+
 ## Contact
 
 Diogo Carvalho - Portfolio Comming Soon - [Linkedin](www.linkedin.com/in/diogo-carvalho-83a96a14a) - [@diogoOak](https://twitter.com/diogoOak)
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgements
-* [Template](https://github.com/Diogo-P-Carvalho/template)
-* [Google’s Favicon Service](https://www.google.com/s2/favicons?domain=zerotomastery.io)
-* [Font Awesome](https://fontawesome.com)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Hero Patterns](https://www.heropatterns.com/)
-* [Github Pages](https://pages.github.com/)
-* [Google Fonts](https://fonts.google.com/)
+
+-   [Template](https://github.com/Diogo-P-Carvalho/template)
+-   [Google’s Favicon Service](https://www.google.com/s2/favicons?domain=zerotomastery.io)
+-   [Font Awesome](https://fontawesome.com)
+-   [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+-   [Hero Patterns](https://www.heropatterns.com/)
+-   [Github Pages](https://pages.github.com/)
+-   [Google Fonts](https://fonts.google.com/)
+-   [Type Fit Quotes API](https://type.fit/api/quotes)
+-   [Tweet Web Intent](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent)
